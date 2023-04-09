@@ -1,0 +1,2 @@
+vhdl work "myDataTypes.vhd"
+vhdl work "MUX32.vhd"

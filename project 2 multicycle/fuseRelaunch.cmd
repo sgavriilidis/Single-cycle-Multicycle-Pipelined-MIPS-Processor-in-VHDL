@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-multicycle/test_PROC_SC_isim_beh.exe" -prj "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-multicycle/test_PROC_SC_beh.prj" "work.test_PROC_SC" 

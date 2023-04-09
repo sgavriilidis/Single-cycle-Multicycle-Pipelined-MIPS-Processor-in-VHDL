@@ -1,0 +1,5 @@
+vhdl isim_temp "REG_PC.vhd"
+vhdl isim_temp "MUX2_1.vhd"
+vhdl isim_temp "INCREMENTOR.vhd"
+vhdl isim_temp "ADDER_IF.vhd"
+vhdl isim_temp "IFSTAGE.vhd"

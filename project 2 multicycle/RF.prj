@@ -1,0 +1,5 @@
+vhdl work "myDataTypes.vhd"
+vhdl work "REG.vhd"
+vhdl work "MUX32.vhd"
+vhdl work "DECODER_5to32.vhd"
+vhdl work "RF.vhd"
