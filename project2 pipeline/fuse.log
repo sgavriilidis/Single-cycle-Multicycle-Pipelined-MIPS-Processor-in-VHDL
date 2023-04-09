@@ -1,0 +1,82 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/test_PROC_SC_isim_beh.exe" -prj "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/test_PROC_SC_beh.prj" "work.test_PROC_SC" 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/myDataTypes.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/SUB.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/REG.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/MUX32.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/DECODER_5to32.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/ADD.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/RF.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/REG_PC.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/mux_instr.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/MUX2_1.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/INCREMENTOR.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/Immed_calculator.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/COMPARE.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/ADDER_IF.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/STALL_UNIT.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/MUX4_1.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/MEM_WB_REGISTER.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/MEMSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/IF_DEC_REGISTER.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/IFSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/FORWARD_UNIT.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/EX_MEM_REGISTER.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/EXSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/DEX_EX_REGISTER.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/DECSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/DATAPATH.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/PROC_SC.vhd" into library work
+Parsing VHDL file "C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/test_PROC_SC.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity CONTROL [control_default]
+Compiling architecture syn of entity RAM [ram_default]
+Compiling architecture behavioral of entity ADDER_IF [adder_if_default]
+Compiling architecture behavioral of entity MUX2_1 [mux2_1_default]
+Compiling architecture behavioral of entity REG_PC [reg_pc_default]
+Compiling architecture behavioral of entity INCREMENTOR [incrementor_default]
+Compiling architecture behavioral of entity IFSTAGE [ifstage_default]
+Compiling architecture behavioral of entity STALL_UNIT [stall_unit_default]
+Compiling architecture behavioral of entity IF_DEC_REGISTER [if_dec_register_default]
+Compiling package mydatatypes
+Compiling package numeric_std
+Compiling architecture behavioral of entity DECODER_5to32 [decoder_5to32_default]
+Compiling architecture behavioral of entity REG [reg_default]
+Compiling architecture behavioral of entity MUX32 [mux32_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity mux_instr [mux_instr_default]
+Compiling architecture behavioral of entity Immed_calculator [immed_calculator_default]
+Compiling architecture behavioral of entity COMPARE [compare_default]
+Compiling architecture behavioral of entity DECSTAGE [decstage_default]
+Compiling architecture behavioral of entity DEX_EX_REGISTER [dex_ex_register_default]
+Compiling architecture behavioral of entity MUX4_1 [mux4_1_default]
+Compiling architecture behavioral of entity ADD [add_default]
+Compiling architecture behavioral of entity SUB [sub_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity EXSTAGE [exstage_default]
+Compiling architecture behavioral of entity EX_MEM_REGISTER [ex_mem_register_default]
+Compiling architecture behavioral of entity MEMSTAGE [memstage_default]
+Compiling architecture behavioral of entity MEM_WB_REGISTER [mem_wb_register_default]
+Compiling architecture behavioral of entity FORWARD_UNIT [forward_unit_default]
+Compiling architecture behavioral of entity DATAPATH [datapath_default]
+Compiling architecture behavioral of entity PROC_SC [proc_sc_default]
+Compiling architecture behavior of entity test_proc_sc
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 67 VHDL Units
+Built simulation executable C:/Users/Sophocles/Desktop/computer_architecture_sofoklis-pipeline/test_PROC_SC_isim_beh.exe
+Fuse Memory Usage: 45148 KB
+Fuse CPU Usage: 702 ms
