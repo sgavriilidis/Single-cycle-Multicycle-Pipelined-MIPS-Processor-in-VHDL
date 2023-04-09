@@ -1,0 +1,6 @@
+vhdl isim_temp "SUB.vhd"
+vhdl isim_temp "ADD.vhd"
+vhdl isim_temp "MUX2_1.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "EXSTAGE.vhd"
+vhdl isim_temp "test_EXSTAGE.vhd"

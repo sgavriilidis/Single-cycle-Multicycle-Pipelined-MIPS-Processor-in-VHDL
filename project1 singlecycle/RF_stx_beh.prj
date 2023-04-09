@@ -1,0 +1,5 @@
+vhdl isim_temp "myDataTypes.vhd"
+vhdl isim_temp "REG.vhd"
+vhdl isim_temp "MUX32.vhd"
+vhdl isim_temp "DECODER_5to32.vhd"
+vhdl isim_temp "RF.vhd"
