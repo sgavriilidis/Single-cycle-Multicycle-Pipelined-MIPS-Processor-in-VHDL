@@ -1,0 +1,5 @@
+vhdl work "SUB.vhd"
+vhdl work "ADD.vhd"
+vhdl work "MUX2_1.vhd"
+vhdl work "ALU.vhd"
+vhdl work "EXSTAGE.vhd"
