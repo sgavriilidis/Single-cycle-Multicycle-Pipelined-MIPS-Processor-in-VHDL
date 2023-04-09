@@ -1,0 +1,114 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Sophocles/Desktop/HRY302/project1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Sophocles/Desktop/HRY302/project1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: DATAPATH.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+INFO:Xst - Part-select index evaluated to out of bound value may lead to incorrect synthesis results; it is recommended not to use them in RTL
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\myDataTypes.vhd" into library work
+Parsing package <myDataTypes>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\SUB.vhd" into library work
+Parsing entity <SUB>.
+Parsing architecture <Behavioral> of entity <sub>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\REG.vhd" into library work
+Parsing entity <REG>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\MUX32.vhd" into library work
+Parsing entity <MUX32>.
+Parsing architecture <Behavioral> of entity <mux32>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\DECODER_5to32.vhd" into library work
+Parsing entity <DECODER_5to32>.
+Parsing architecture <Behavioral> of entity <decoder_5to32>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\ADD.vhd" into library work
+Parsing entity <ADD>.
+Parsing architecture <Behavioral> of entity <add>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\RF.vhd" into library work
+Parsing entity <RF>.
+Parsing architecture <Behavioral> of entity <rf>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\REG_PC.vhd" into library work
+Parsing entity <REG_PC>.
+Parsing architecture <Behavioral> of entity <reg_pc>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\mux_instr.vhd" into library work
+Parsing entity <mux_instr>.
+Parsing architecture <Behavioral> of entity <mux_instr>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\MUX4_1.vhd" into library work
+Parsing entity <MUX4_1>.
+Parsing architecture <Behavioral> of entity <mux4_1>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\MUX2_1.vhd" into library work
+Parsing entity <MUX2_1>.
+Parsing architecture <Behavioral> of entity <mux2_1>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\INCREMENTOR.vhd" into library work
+Parsing entity <INCREMENTOR>.
+Parsing architecture <Behavioral> of entity <incrementor>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\Immed_calculator.vhd" into library work
+Parsing entity <Immed_calculator>.
+Parsing architecture <Behavioral> of entity <immed_calculator>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\ADDER_IF.vhd" into library work
+Parsing entity <ADDER_IF>.
+Parsing architecture <Behavioral> of entity <adder_if>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\MEMSTAGE.vhd" into library work
+Parsing entity <MEMSTAGE>.
+Parsing architecture <Behavioral> of entity <memstage>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\IFSTAGE.vhd" into library work
+Parsing entity <IFSTAGE>.
+Parsing architecture <Behavioral> of entity <ifstage>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\EXSTAGE.vhd" into library work
+Parsing entity <EXSTAGE>.
+Parsing architecture <Behavioral> of entity <exstage>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\DECSTAGE.vhd" into library work
+Parsing entity <DECSTAGE>.
+Parsing architecture <Behavioral> of entity <decstage>.
+Parsing VHDL file "C:\Users\Sophocles\Desktop\HRY302\project1\DATAPATH.vhd" into library work
+Parsing entity <DATAPATH>.
+Parsing architecture <Behavioral> of entity <datapath>.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.33 secs
+ 
+--> 
+
+Total memory usage is 4472052 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
